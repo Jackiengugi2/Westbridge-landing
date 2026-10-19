@@ -27,6 +27,6 @@ filled from these and hidden while empty, so the page never shows a dead link.
 
 ## Confirm before publishing
 
-Contact number, location, classes offered and fees are not on file. Fill `phone` and `whatsapp` in `window.LANDING` (both pages); until then phone/WhatsApp buttons stay hidden. Confirm the class list in the form.
+Location, classes offered and fees are not on file; confirm the class list in the form. The contact number is set in `window.LANDING` (both pages).
 
 Local preview: `python3 -m http.server 8080` (form submissions only work on Netlify).
